@@ -16,6 +16,7 @@ const calcularPresionArterial = (edad, sistolica, diastolica) => {
   } else if (sistolica > 180 && diastolica > 120) {
     return "Crisis de hipertensión. ¡Acuda a un médico de inmediato!";
   }
+  return "Ninguno de los casos fue cierto."
 };
 
 const formulario = document.getElementById("calculadora");
